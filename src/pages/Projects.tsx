@@ -190,7 +190,7 @@ const Projects: React.FC = () => {
                 <div className="flex items-center space-x-2">
                   <span className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-medium border ${getCompanyStyles(project.company)}`}>
                     <Building2 className="h-3 w-3 mr-1" />
-                    {project.company === 'ello' ? 'Ello.one' : 'Stacia Corps'}
+                    {project.company === 'ello' ? 'Ello.one' : 'Stacia Corp'}
                   </span>
                   <span className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-medium border ${getStatusStyles(project.status)}`}>
                     {project.status === 'queue' 
@@ -234,7 +234,7 @@ const Projects: React.FC = () => {
                       <p className="text-secondary-700">{update.content}</p>
                       <div className="mt-2 flex justify-between items-center text-xs text-secondary-500">
                         <span className={`inline-flex items-center px-2 py-0.5 rounded-full border ${getCompanyStyles(update.company)}`}>
-                          {update.company === 'ello' ? 'Ello.one' : 'Stacia Corps'}
+                          {update.company === 'ello' ? 'Ello.one' : 'Stacia Corp'}
                         </span>
                         <span>{new Date(update.createdAt).toLocaleString()}</span>
                       </div>

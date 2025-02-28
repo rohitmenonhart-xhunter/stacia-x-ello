@@ -15,7 +15,7 @@ const USERS = [
     username: 'stacia_admin',
     password: 'stellar',
     name: 'Stacia Admin',
-    company: 'stacia'
+    company: 'stacia corp'
   }
 ];
 

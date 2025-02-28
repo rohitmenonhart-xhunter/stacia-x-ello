@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
             <div className="flex-shrink-0 flex items-center">
               <Building2 className="h-8 w-8 text-primary-600" />
               <span className="ml-2 text-xl font-bold bg-gradient-to-r from-primary-600 to-primary-500 bg-clip-text text-transparent">
-                {currentUser.company === 'ello' ? 'Ello.one' : 'Stacia Corps'}
+                {currentUser.company === 'ello' ? 'Ello.one' : 'Stacia Corp'}
               </span>
             </div>
             <div className="hidden sm:ml-8 sm:flex sm:space-x-8">

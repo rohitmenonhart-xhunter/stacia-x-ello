@@ -61,7 +61,7 @@ const ProjectCard = ({
       <div className="mt-3">
         <span className={`inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium border ${getCompanyStyles(project.company)}`}>
           <Building2 className="h-3 w-3 mr-1" />
-          {project.company === 'ello' ? 'Ello.one' : 'Stacia Corps'}
+          {project.company === 'ello' ? 'Ello.one' : 'Stacia Corp'}
         </span>
       </div>
     </div>
